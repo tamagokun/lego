@@ -1,6 +1,6 @@
 {
   "name": "@ripeworks/lego-sql",
-  "version": "5.0.3",
+  "version": "5.1.0",
   "description": "A lightweight SQL (string) builder using ES6 template strings. Lego embraces SQL instead of adding yet another abstraction layer.",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -61,6 +61,6 @@
     "debug": "^2.2.0",
     "dotenv": "^1.2.0",
     "minimist": "^1.2.0",
-    "pg": "^7.8.0"
+    "pg": "^8.0.0"
   }
 }
