@@ -77,7 +77,7 @@ export class PostgresDriver {
 						return result;
 					})
 					.catch((error) => {
-						client.release();
+						client.release(true);
 
 						return Promise.reject(error);
 					});
